@@ -107,10 +107,7 @@ body {
         padding: 22rem 0; }
     }
 
-    @media (min-width: 750px) {
-      .quote-box {
-        height: 190px; }
-    }
+  
 
     @media (min-width: 550px) {
       .quote-box {
