@@ -69,15 +69,3 @@ body {
   }
 
 }
-
-.footer {
-  border-radius: 3px;
-  position: relative;
-  width:450px;
-  text-align:center;
-  display:block;
-  margin:15px auto 30px auto;
-  font-size:0.5em;
-  color:#fff;
-
-}
