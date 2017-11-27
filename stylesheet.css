@@ -35,18 +35,8 @@ body {
   padding:40px 50px;
   display:table;
   background-color:#fff;
-  .quote-text {
-    i{
-      font-size:1.0em;
-      margin-right: 0.4em;
-    }
-    text-align:center;
-    width:450px;
-    height:auto;
-    clear:both;
-    font-weight:500;
-    font-size:1.75em;
-  }
+
+
 
 .quote-title {
   color: black;
