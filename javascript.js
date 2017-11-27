@@ -20,7 +20,10 @@ window.onload = function() {
   function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
       if (httpRequest.status === 200) {
-        alert(httpRequest.responseText);
+        var quotes = JSON.parse(this.responseText);
+        document.getElementById("maori").innerHTML = quotes.source;
+        document.getElementById("english").innerHTML = quotes.translation;
+        quotes.innerHTML = httpRequest.responseText;
       } else {
         alert('There was a problem with the request.');
       }
