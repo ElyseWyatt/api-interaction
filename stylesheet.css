@@ -12,7 +12,6 @@ div {
 
 body {
   background-color: #659E8A;
-  color: #659E8A;
   font-family: 'Raleway', sans-serif;
   font-weight:400;
 }
@@ -49,6 +48,12 @@ body {
     font-weight:500;
     font-size:1.75em;
   }
+
+.quote-title {
+  color: black;
+  font-size: 2.5em;
+}
+
 
   .quote-heading {
     color: black;
