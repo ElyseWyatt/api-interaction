@@ -52,8 +52,9 @@ body {
 
   .quote-heading {
     color: black;
+    font-size: 1.2em;
   }
-  
+
   .quote-author {
     width:450px;
     height:auto;
