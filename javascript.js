@@ -13,7 +13,7 @@ makeRequest()
 
     httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', 'https://eda-te-reo.herokuapp.com/api/proverbs' true);
-    httpRequest.send();
+    httpRequest.send()
 
 
   function alertContents() {
