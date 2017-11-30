@@ -15,7 +15,7 @@ window.onload = function() {
     httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', 'https://eda-te-reo.herokuapp.com/api/proverbs' true);
     httpRequest.send();
-  }
+  
 
   function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
