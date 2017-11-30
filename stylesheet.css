@@ -28,6 +28,7 @@ body {
 .h1 {
   font-size: 2.5em;
    font-family: "Avenir", sans-serif;
+   padding: 5%;
 }
 
 .quote-title {
