@@ -1,12 +1,11 @@
 
 
 window.onload = function() {
-  var httpRequest;
   document.getElementById("ajaxButton").addEventListener('click', makeRequest);
-
+}
+makeRequest()
   function makeRequest() {
     httpRequest = new XMLHttpRequest();
-
     if (!httpRequest) {
       alert('Giving up :( Cannot create an XMLHTTP instance');
       return false;
@@ -15,7 +14,7 @@ window.onload = function() {
     httpRequest.onreadystatechange = alertContents;
     httpRequest.open('GET', 'https://eda-te-reo.herokuapp.com/api/proverbs' true);
     httpRequest.send();
-  
+
 
   function alertContents() {
     if (httpRequest.readyState === XMLHttpRequest.DONE) {
