@@ -72,9 +72,11 @@ h2 {
 
 .button {
   margin: 5% 0%;
+  padding: 5%;
   display:block;
   background-color: #676EFD;
   color: white;
+
 }
 
 
