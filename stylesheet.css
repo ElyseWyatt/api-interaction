@@ -27,6 +27,7 @@ body {
 
 h1 {
   font-size: 2.2em;
+  font-family: "Calibri", sans-serif;
 }
 
 h2 {
@@ -38,7 +39,7 @@ h2 {
   font-size: 0.7em;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 7px;
 }
 
 .quote-title {
