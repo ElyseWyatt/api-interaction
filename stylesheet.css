@@ -13,7 +13,7 @@ body {
   background-color: #676EFD;
   font-family: "Open Sans", sans-serif;
   font-weight:400;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 
 .quote-box {
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 25px 0px 5px 0px;
 }
 
