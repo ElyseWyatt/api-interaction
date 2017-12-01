@@ -71,9 +71,9 @@ h2 {
 }
 
 .button {
-  width:450px;
   margin: 5% 0%;
   display:block;
+  background-color: black;
 }
 
 
